@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav img {
+  height: 40px; 
+  width: auto;
+}
+
+#ceo img {
+  height: 200px; 
+  width: auto;
+}
+
+section {
+  padding: 50px 30px 100px 30px;
+  margin-bottom: ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  
+}
+
+#services {
+  background-image: url('picture2.jpg');
+
+}
+
+#about {
+  background-image: url('picture2.jpg');
+}
+
+#ceo {
+  background-image: url('picture2.jpg');
+}
+
+#gallery {
+  background-image: url('picture2.jpg');
+}
+
+#contact {
+  background-image: url('picture2.jpg');
+}
+
+h2 {
+  color: white;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0px;
+  color: white; 
+}
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gal {
+  margin: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  color: white; 
+}
+
+nav{
+	padding: 20px;
+}
+
+p{
+	padding: 5px;
+	background-color:black;
+}
+form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+textarea {
+  height: 120px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #555;
+}
+
